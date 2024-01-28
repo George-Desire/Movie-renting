@@ -55,7 +55,7 @@ class MovieStore {
 const movieStore = new MovieStore();
 
 const movie1 = new Movie("A tribe called Judah", "Comedy");
-const movie2 = new Movie("Prophet Suddenly", "Crime");
+const movie2 = new Movie("Prophet Suddenly", "Drama");
 
 movieStore.addMovie(movie1);
 movieStore.addMovie(movie2);
