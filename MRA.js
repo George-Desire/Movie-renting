@@ -52,7 +52,6 @@ class MovieStore {
     }
 }
 
-// Example usage:
 const movieStore = new MovieStore();
 
 const movie1 = new Movie("A tribe called Judah", "Comedy");
@@ -61,8 +60,8 @@ const movie2 = new Movie("Prophet Suddenly", "Crime");
 movieStore.addMovie(movie1);
 movieStore.addMovie(movie2);
 
-movieStore.rentMovie("Ada Omo Daddy");
-movieStore.rentMovie("Ada Omo Daddy"); // Trying to rent already rented movie
+movieStore.rentMovie("A tribe called Judah");
+movieStore.rentMovie("A tribe called Judah");
 
-movieStore.returnMovie("Ada Omo Daddy");
-movieStore.returnMovie("Ada Omo Daddy"); // Trying to return already returned movie
+movieStore.returnMovie("A tribe called Judah");
+movieStore.returnMovie("A tribe called Judah");
